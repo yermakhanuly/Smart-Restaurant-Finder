@@ -1,5 +1,5 @@
 import axios from 'axios';
-import type { RestaurantSuggestion } from '../types';
+import type { RestaurantSuggestion } from 'src/types';
 
 const apiClient = axios.create({
   baseURL: process.env.API_BASE_URL || 'http://localhost:3000/api',
